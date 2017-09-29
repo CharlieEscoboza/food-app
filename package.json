@@ -1,0 +1,31 @@
+{
+  "name": "thefoodapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./src/server/index.js",
+    "test": "node_modules/.bin/mocha src/test --color",
+    "lint": "eslint --color ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engine": {
+    "node": ">=6.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.3",
+    "eslint": "^4.7.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.12.1"
+  }
+}
